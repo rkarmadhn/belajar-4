@@ -1,0 +1,18 @@
+@media (max-width: 765px) {
+    #top .container{
+        padding: 5px;
+    }
+
+    .icon-top svg {
+      margin: 5px;
+    }
+  
+    .icon-top p,
+    #top p {
+      font-weight: 400;
+      font-size: 12px;
+      color: #fff8ee;
+      letter-spacing: 1px;
+      margin: 5px;
+    }
+  }
