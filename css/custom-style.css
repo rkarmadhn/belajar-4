@@ -3,10 +3,15 @@
 @import url("navigation-style.css");
 @import url("css-reset.css");
 @import url("responsive.css");
+@import url("custom-image-slider.css");
 
-body {
+body, nav {
   font-family: "Poppins", sans-serif;
   background-color: #ffefee;
+}
+
+nav{
+  border-bottom: 2px solid #cc33339f;
 }
 
 .navbar-brand{

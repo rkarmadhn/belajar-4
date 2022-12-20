@@ -1,0 +1,56 @@
+    <script>
+      var slides = document.querySelectorAll(".slide");
+      var btns = document.querySelectorAll(".btn");
+      let curentSlide = 1;
+
+      // Manual slider
+      var manualNav = function (manual) {
+        slides.forEach((slides) => {
+          slides.classList.remove("active");
+
+          btns.forEach((btns) => {
+            btns.classList.remove("active");
+          });
+        });
+
+        slides[manual].classList.add("active");
+        btns[manual].classList.add("active");
+      };
+
+      btns.forEach((btn, i) => {
+        btn.addEventListener("click", () => {
+          manualNav(i);
+          curentSlide = i;
+        });
+      });
+
+      // Javascript automatic
+      
+      repeat();
+    </script>
+
+var repeat = function (activeClass) {
+        let active = document.querySelector("#image-slides .active");
+        let i = 1;
+
+        
+        var repeater = () => {
+          setTimeout(function () {
+            [...active].forEach((activeSlides) => {
+              activeSlides.classList.remove('active');
+            });
+
+            slides[i].classList.add("active");
+            btns[i].classList.add("active");
+
+            if (slides.length == i) {
+              i = 0;
+            }
+            if (i >= slides.length) {
+              return;
+            }
+            repeater();
+          }, 10000);
+        };
+        repeater();
+      };
