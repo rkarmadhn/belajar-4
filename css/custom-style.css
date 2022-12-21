@@ -5,17 +5,14 @@
 @import url("responsive.css");
 @import url("custom-image-slider.css");
 
-body{
+body {
+  font-family: "Inter", sans-serif;
   animation: fade;
   animation-duration: 2s;
 }
 
-body,
 nav {
-  font-family: "Poppins", sans-serif;
-}
-
-nav {
+  background-color: #ffffff;
   border-bottom: 2px solid #cc33339f;
 }
 
@@ -28,26 +25,6 @@ nav {
   background-color: #cc3333;
 }
 
-h5 {
-  color: #2a435d;
-  font-size: 20px;
-  font-weight: 600;
-  margin: 10px 0;
-}
-
-h2 {
-  color: #cc3333;
-  font-size: 32px;
-  font-weight: 700;
-  margin: 10px 0;
-}
-
-p{
-  color: #2a435d;
-  font-size: 20px;
-  margin: 10px 0;
-}
-
 a {
   text-decoration: none;
   color: #ffffff;
@@ -57,27 +34,31 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
+  padding: 10px 0;
 }
 
 .food-head {
   margin: 10px 0;
 }
 
-.border-start{
+.border-start {
   border-left: 1px solid #cc3333 !important;
 }
 
-.border-end{
+.border-end {
   border-right: 1px solid #cc3333 !important ;
 }
 
 @keyframes fade {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.row-btn svg{
+.row-btn svg {
   width: 32px;
   height: 32px;
   margin: 10px;
@@ -85,7 +66,8 @@ a {
 
 .images-food-items,
 .description-image,
-.big-offer-image{
+.big-offer-image,
+.image-my-restaurant {
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -94,15 +76,36 @@ a {
 }
 
 @media (min-width: 772px) {
-  .custom-row{
+  h3 {
+    color: #cc3333;
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    color: #2a435d;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #2a435d;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .custom-row {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
-  #food-items,
-  #description {
-    padding: 1.2rem 0;
+
+  #description,
+  #big-offer,
+  #my-restaurant {
+    padding: 3rem 0;
   }
 
   /* Top ----------------------------------------------------- */
@@ -115,34 +118,19 @@ a {
     font-size: 14px;
     color: #fff8ee;
     letter-spacing: 1px;
+    margin: 0 !important;
   }
   /* ---------------------------------------------------------- */
 
-  .row-images{
+  .row-images {
     display: flex;
     justify-content: center;
   }
 
-  /* food-items --------------------------------------------- */
-  .images-food-items{
-    width: 200px;
-    height: 125px;
-    margin: 5px;
-  }
-
-  .images-food-items:nth-child(1) {
-    border-radius: 15px 0 0 15px;
-  }
-
-  .images-food-items:nth-child(5) {
-    border-radius: 0 15px 15px 0;
-  }
-  /* ----------------------------------------------------- */
-
   /* Description ------------------------------------------- */
   .description-image {
-    width: 518px;
-    height: 348px;
+    width: 520px;
+    height: 400px;
   }
 
   .description-text h2 {
@@ -170,11 +158,25 @@ a {
   /* -------------------------------------------------------- */
 
   /* Big offer ----------------------------------------------- */
-  .big-offer-image{
+  .big-offer-image {
     width: 550px;
     height: 200px;
     margin: 5px;
-  }  
+  }
+  /* ------------------------------------------------------- */
 
-  
+  /* My Restaurant */
+  .row-my-restaurant {
+    align-items: center;
+  }
+
+  .row-my-restaurant img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+  }
+
+  #my-restaurant p {
+    font-size: 18px !important;
+  }
 }

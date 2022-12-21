@@ -1,14 +1,22 @@
 @media (max-width: 765px) {
-  h2 {
-    font-size: 28px !important;
+  h3 {
+    color: #cc3333;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0;
   }
-
-  .col-sm {
-    padding: 5px;
+  
+  h4 {
+    color: #2a435d;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
   }
-
-  #top .container {
-    padding: 10px 5px;
+  
+  p {
+    color: #2a435d;
+    font-size: 14px;
+    margin: 10px 0;
   }
 
   .icon-top {
@@ -65,5 +73,33 @@
 
   #big-offer{
     display: none;
+  }
+
+  /* My Restaurant */
+  .image-my-restaurant {
+    width: 100%;
+    height: 250px;
+  }
+
+  .row-my-restaurant {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row-my-restaurant .col-sm-2{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .row-my-restaurant .col-sm-10{
+    width: 85%;
+  }
+
+  .row-my-restaurant img {
+    width: 30px;
+    height: 30px;
+    margin: auto;
   }
 }

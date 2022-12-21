@@ -15,11 +15,12 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <div class="sticky-top">
     <section id="top">
       <div class="container">
         <div class="custom-row icon-top">
-          <svg width="16" height="16" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10 0C4.5 0 0 4.5 0 10C0 15.5 4.5 20 10 20C15.5 20 20 15.5 20 10C20 4.5 15.5 0 10 0ZM14.2 14.2L9 11V5H10.5V10.2L15 12.9L14.2 14.2Z" fill="#FFF8EE" />
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-clock-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
           </svg>
           <p>7.30 AM - 9.30 PM</p>
         </div>
@@ -60,6 +61,7 @@
         </form>
       </div>
     </nav>
+    </div>
 
     <section id="image-slider">
       <div class="container-fluid">
@@ -83,33 +85,17 @@
       </div>
     </section>
 
-    <section id="food-items">
-      <div class="container">
-        <div class="food-head text-center">
-          <h5>Food items</h5>
-          <h2>Popular Dishes</h2>
-        </div>
-        <div class="row-images">
-          <div class="images-food-items" style="background-image: url('images/images-food-items-1.jpg');"></div>
-          <div class="images-food-items" style="background-image: url('images/images-food-items-2.jpg');"></div>
-          <div class="images-food-items" style="background-image: url('images/images-food-items-3.jpg');"></div>
-          <div class="images-food-items" style="background-image: url('images/images-food-items-4.jpg');"></div>
-          <div class="images-food-items" style="background-image: url('images/images-food-items-5.jpg');"></div>
-        </div>
-      </div>
-    </section>
-
     <section id="description">
       <div class="container">
         <div class="text-center">
-          <h5 class="m-sm-3">Rich & Healty</h5>
         </div>
         <div class="row m-lg-3 description-text">
           <div class="col-md-6 col-sm-6">
             <div class="description-image" style="background-image: url('images/service-1303313.jpg');"></div>
           </div>
           <div class="col-md-6 col-sm-6">
-            <h2>Highest quality artisangrains, proteins & seasonal ingredients</h2>
+            <h4>Rich & Healty</h4>
+            <h3>Highest quality artisangrains, proteins & seasonal ingredients</h3>
             <p>Righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desires, that they cannot foresee.</p>
             <ul>
               <li>
@@ -147,13 +133,46 @@
 
     <section id="big-offer">
       <div class="container">
-        <h2 class="text-center">Big Offer</h2>
-        <div class="d-lg-flex row-big-offer-images">
+        <h3 class="text-center">Big Offer</h3>
+        <div class="d-lg-flex">
           <div class="big-offer-image" style="background-image: url('images/image_bigOffer_1.png');">
-          <img src="images/image_bigOffer_1.png" alt="">
           </div>
           <div class="big-offer-image" style="background-image: url('images/image_bigOffer_2.png');">
-          <img src="images/image_bigOffer_2.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="my-restaurant">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 ">
+            <div class="image-my-restaurant" style="background-image: url('images/chef-4807317_1280.jpg');"></div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <h4>Our Restaurant</h4>
+            <h3>For every specialoccasion there’s heritaste</h3>
+            <p>Indignation and dislike men who are so beguiled demoralized by the charms of pleasure of the moment. Success Story.</p>
+            <div class="row row-my-restaurant">
+              <div class="col-md-2 col-sm-2">
+                <img src="images/our-restaurant-logo-1.png" alt="">
+              </div>
+              <div class="col-md-10 col-sm-10">
+                <h3>Success Story</h3>
+                <p>Certain circumstances and owing to the claims of duty obligations of business it will frequently.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="row row-my-restaurant">
+              <div class="col-md-2 col-sm-2">
+                <img src="images/our-restaurant-logo-2.png" alt="">
+              </div>
+              <div class="col-md-10 col-sm-10">
+                <h3>Passionate Chefs</h3>
+                <p>Duty or the obligations of business it frequently occur pleasures have to be repudiated.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
