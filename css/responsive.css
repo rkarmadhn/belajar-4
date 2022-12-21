@@ -39,7 +39,6 @@
     width: 100%;
     height: 275px;
     overflow-y: scroll;
-    padding: 0 10px;
   }
 
   .images-food-items {
@@ -68,5 +67,9 @@
     color: #2a435d;
     font-size: 14px;
     margin: 0 5px;
+  }
+
+  #big-offer{
+    display: none;
   }
 }
