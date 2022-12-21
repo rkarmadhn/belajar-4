@@ -1,0 +1,21 @@
+@media (min-width : 772px) {
+    .menu-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .menu-head p{
+        padding: 5px 25px;
+      }
+    
+      .menu-text.active{
+        display: block;
+      }
+    
+      .menu-text{
+        display: none;
+      animation: fade;
+      animation-duration: 1.5s;
+      }
+}
