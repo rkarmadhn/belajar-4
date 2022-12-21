@@ -60,7 +60,6 @@ nav .cancel-icon {
 }
 
 @media (min-width: 772px) {
-
   nav .menu-icon,
   nav .search-icon,
   nav .cancel-icon {
@@ -77,7 +76,7 @@ nav .cancel-icon {
 }
 
 @media (max-width: 765px) {
-  .fixed-top{
+  .fixed-top {
     position: absolute !important;
   }
 

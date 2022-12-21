@@ -8,12 +8,16 @@
 
 @media (min-width : 772px) {
   .carousel-item {
-   max-height: 600px;
+   max-height: 596px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+
+  .carousel-item img{
+    height: 596px;
   }
 
   .carousel-indicators button{
@@ -25,14 +29,16 @@
 }
 
 @media (max-width : 765px) {
-  .carousel-item{
-    height: 220px;
+  .carousel-item img{
+    height: 200px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
+
+
 
   .carousel-indicators button{
     width: 25px !important;
