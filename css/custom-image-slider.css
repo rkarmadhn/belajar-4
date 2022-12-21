@@ -2,13 +2,14 @@
   padding: 0 !important;
 }
 
-.carousel-indicators{
-  margin: 0 !important; 
+.carousel-indicators {
+  margin: 0 !important;
 }
 
-@media (min-width : 772px) {
+@media (min-width: 772px) {
   .carousel-item {
-   max-height: 596px;
+    width: 1276px;
+    height: 596px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,11 +17,11 @@
     background-size: cover;
   }
 
-  .carousel-item img{
+  .carousel-item img {
     height: 596px;
   }
 
-  .carousel-indicators button{
+  .carousel-indicators button {
     width: 50px !important;
     height: 5px !important;
     background-color: #ffefee !important;
@@ -28,9 +29,10 @@
   }
 }
 
-@media (max-width : 765px) {
-  .carousel-item img{
-    height: 200px;
+@media (max-width: 765px) {
+  .carousel-item {
+    width: 100vw;
+    height: 350px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -38,9 +40,7 @@
     background-size: cover;
   }
 
-
-
-  .carousel-indicators button{
+  .carousel-indicators button {
     width: 25px !important;
     height: 3px !important;
     margin: 1rem 5px !important;
