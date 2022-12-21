@@ -1,0 +1,49 @@
+Description
+
+<h4>Rich & Healty</h4>
+            <h3>Highest quality artisangrains, proteins & seasonal ingredients</h3>
+            <p>Righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desires, that they cannot foresee.</p>
+            <ul>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10 0L12.6033 4.59419L17.8183 3.7651L15.8496 8.66487L19.7493 12.2252L14.691 13.7409L14.3388 19.0097L10 16L5.66116 19.0097L5.30901 13.7409L0.250721 12.2252L4.15043 8.66487L2.18168 3.7651L7.3967 4.59419L10 0Z"
+                    fill="#CC3333"
+                  />
+                </svg>
+                <span>Simple and easy to distinguish</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10 0L12.6033 4.59419L17.8183 3.7651L15.8496 8.66487L19.7493 12.2252L14.691 13.7409L14.3388 19.0097L10 16L5.66116 19.0097L5.30901 13.7409L0.250721 12.2252L4.15043 8.66487L2.18168 3.7651L7.3967 4.59419L10 0Z"
+                    fill="#CC3333"
+                  />
+                </svg>
+                <span>Pleasure of the momentblinded desire</span>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10 0L12.6033 4.59419L17.8183 3.7651L15.8496 8.66487L19.7493 12.2252L14.691 13.7409L14.3388 19.0097L10 16L5.66116 19.0097L5.30901 13.7409L0.250721 12.2252L4.15043 8.66487L2.18168 3.7651L7.3967 4.59419L10 0Z"
+                    fill="#CC3333"
+                  />
+                </svg>
+                <span>Able to do what we like best</span>
+              </li>
+            </ul>
+-----------------------------------------------------------------
+
+My Restaurant
+
+<h4>Our Restaurant</h4>
+            <h3>For every specialoccasion there’s heritaste</h3>
+            <p>Indignation and dislike men who are so beguiled demoralized by the charms of pleasure of the moment. Success Story.</p>
+
+                            <h3>Success Story</h3>
+                <p>Certain circumstances and owing to the claims of duty obligations of business it will frequently.</p>
+                <a href="#">Read More</a>
+
+                                <h3>Passionate Chefs</h3>
+                <p>Duty or the obligations of business it frequently occur pleasures have to be repudiated.</p>
+                <a href="#">Read More</a>

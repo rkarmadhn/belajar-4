@@ -102,4 +102,27 @@
     height: 30px;
     margin: auto;
   }
+
+  .custom-card {
+    margin: 10px 0;
+    padding: 25px;
+    position: relative;
+    background-color: #cc3333;
+  }
+
+  .custom-card-logo {
+    width: 80px;
+    height: 80px;
+    margin: 25px auto;
+  }
+
+  .custom-card h4 {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  .custom-card p {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
 }

@@ -83,7 +83,7 @@ nav .cancel-icon {
   nav .container .nav-items {
     position: fixed;
     z-index: 1020;
-    top: 100px;
+    top: 110px;
     left: -100%;
     width: 100%;
     height: 100%;
@@ -106,7 +106,7 @@ nav .cancel-icon {
 
   nav .container form {
     position: absolute;
-    top: 112px;
+    top: 115px;
     right: 10px;
     opacity: 0;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);

@@ -14,7 +14,7 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("menu-text");
-  let headSlides = document.getElementsByClassName("head-active");
+  let headSlides = document.getElementsByClassName("list-link");
 
   if (n > slides.length && n > headSlides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}

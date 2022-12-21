@@ -1,21 +1,42 @@
-@media (min-width : 772px) {
-    .menu-head{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    
-      .menu-head p{
-        padding: 5px 25px;
-      }
-    
-      .menu-text.active{
-        display: block;
-      }
-    
-      .menu-text{
-        display: none;
-      animation: fade;
-      animation-duration: 1.5s;
-      }
+@media (min-width: 772px) {
+  .menu-section {
+    padding: 1rem 0;
+  }
+  .menu-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+  .menu-head a {
+    padding: 5px 25px;
+    font-size: 20px;
+  }
+
+  .menu-text.active {
+    display: block;
+  }
+
+  .menu-text {
+    display: none;
+    animation: fade;
+    animation-duration: 1.5s;
+  }
+
+  .row-btn {
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .image-column{
+    width: 500px;
+    height: 685px;
+    background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 auto;
+  }
 }
