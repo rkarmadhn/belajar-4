@@ -6,6 +6,10 @@
 @import url("custom-image-slider.css");
 @import url("menu-style.css");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter", sans-serif;
   animation: fade;
@@ -69,7 +73,8 @@ a {
 .description-image,
 .big-offer-image,
 .image-my-restaurant,
-.custom-card-logo {
+.custom-card-logo,
+.image-delivery {
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -104,9 +109,12 @@ a {
     align-items: center;
   }
 
-  #description,
-  #big-offer,
-  #my-restaurant {
+  .description-section,
+  .big-offer-section,
+  .my-restaurant-section,
+  .wwatb-section,
+  .delivery-section,
+  .testimonial-section {
     padding: 3rem 0;
   }
 
@@ -182,7 +190,7 @@ a {
     margin: 5px;
   }
 
-  #my-restaurant p {
+  .my-restaurant-section p {
     font-size: 18px !important;
   }
 
@@ -191,16 +199,16 @@ a {
     padding: 25px;
     position: relative;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
-    transition: all .5s;
+    transition: all 0.5s;
     cursor: pointer;
   }
 
-  .custom-card:hover{
+  .custom-card:hover {
     background-color: #cc3333;
   }
 
   .custom-card:hover h4,
-  .custom-card:hover p{
+  .custom-card:hover p {
     color: #ffffff;
   }
 
@@ -218,4 +226,8 @@ a {
     margin-bottom: 20px;
   }
 
+  .image-delivery {
+    width: 545px;
+    height: 390px;
+  }
 }

@@ -1,4 +1,4 @@
-#image-slider .container-fluid {
+.slider-section {
   padding: 0 !important;
 }
 
@@ -26,6 +26,10 @@
 }
 
 @media (max-width: 765px) {
+  .slider-section {
+    padding: 0 !important;
+  }
+
   .carousel-item {
     width: 100vw;
     height: 350px;

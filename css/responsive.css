@@ -5,18 +5,27 @@
     font-size: 20px;
     margin: 10px 0;
   }
-  
+
   h4 {
     color: #2a435d;
     font-size: 18px;
     font-weight: 600;
     margin: 10px 0;
   }
-  
+
   p {
     color: #2a435d;
     font-size: 14px;
     margin: 10px 0;
+  }
+
+  .description-section,
+  .big-offer-section,
+  .my-restaurant-section,
+  .delivery-section,
+  .wwatb-section,
+  .testimonial-section {
+    margin: 1rem 0;
   }
 
   .icon-top {
@@ -38,11 +47,6 @@
     margin: 5px;
   }
 
-  #food-items,
-  #description {
-    padding: 10px 0;
-  }
-
   .images-food-items {
     width: 100% !important;
     height: 250px !important;
@@ -56,7 +60,6 @@
 
   .description-text p {
     color: #2a435d;
-    font-size: 16px;
     line-height: 20px;
   }
 
@@ -71,7 +74,7 @@
     margin: 0 5px;
   }
 
-  #big-offer{
+  .big-offer-section {
     display: none;
   }
 
@@ -87,13 +90,13 @@
     align-items: center;
   }
 
-  .row-my-restaurant .col-sm-2{
+  .row-my-restaurant .col-sm-2 {
     width: 50px;
     height: 50px;
     justify-content: center;
     align-items: center;
   }
-  .row-my-restaurant .col-sm-10{
+  .row-my-restaurant .col-sm-10 {
     width: 85%;
   }
 
@@ -107,7 +110,8 @@
     margin: 10px 0;
     padding: 25px;
     position: relative;
-    background-color: #cc3333;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
   }
 
   .custom-card-logo {
@@ -117,12 +121,27 @@
   }
 
   .custom-card h4 {
-    color: #ffffff;
+    color: #2a435d;
     margin-bottom: 20px;
   }
 
   .custom-card p {
-    color: #ffffff;
+    color: #2a435d;
     margin-bottom: 20px;
+  }
+
+  .custom-card-bg-red {
+    background-color: #cc3333;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  }
+
+  .custom-card-bg-red h4,
+  .custom-card-bg-red p {
+    color: #ffffff;
+  }
+
+  .image-delivery {
+    width: 100%;
+    height: 250px;
   }
 }
