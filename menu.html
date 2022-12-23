@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/custom-style.css" />
+    <link rel="stylesheet" href="css/menu-style.css">
 
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/ec50e522c8.js" crossorigin="anonymous"></script>
@@ -43,8 +44,7 @@
             <div class="nav-items me-lg-2">
               <a href="index.html" class="nav-links">Home</a>
               <a href="menu.html" class="nav-links">Menu</a>
-              <a href="#" class="nav-links">About</a>
-              <a href="#" class="nav-links">Items</a>
+              <a href="about-us.html" class="nav-links">About</a>
               <a href="#" class="nav-links">Pages</a>
               <a href="#" class="nav-links">Contact</a>
             </div>
@@ -63,34 +63,138 @@
       </nav>
     </div>
 
+    <div class="container-fluid header-section">
+      <div class="header-image" style="background-image: url('images/image_about-bg.png')">
+        <div class="text-center w-50 header-text">
+          <h3>Special</h3>
+          <p>Check out our Menu</p>
+        </div>
+      </div>
+    </div>
+
     <div class="container menu-section">
-      <div class="text-center">
-        <h4>Special</h4>
-        <h3>Check out our Menu</h3>
-      </div>
       <div class="menu-head">
-        <a href="" class="list-link">Food</a>
-        <a href="" class="list-link border-start border-end">Drink</a>
-        <a href="" class="list-link">Dessert</a>
+        <p class="list-link" onclick="plusSlides(1)">Food</p>
+        <p class="list-link" onclick="plusSlides(1)">Dessert</p>
       </div>
+
+      <!-- List Food - 1 -->
       <div class="row">
-        <div class="col-md-6">
-          <div class="image-column" style="background-image: url('images/image-menu.png');"></div>
+        <div class="col-md-12 menu-text">
+          <div class="d-flex">
+            <div class="menu-card">
+              <img src="images/image_itemsList_1.png" />
+              <div class="menu-card-text">
+                <h4>Chicken Pizza Supreme</h4>
+                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
+                <p>$150</p>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img src="images/image_itemsList_2.png" />
+              <div class="menu-card-text">
+                <h4>Hamburger Burger with Beef</h4>
+                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
+                <p>$150</p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="menu-card">
+              <img src="images/image_itemsList_3.png" />
+              <div class="menu-card-text">
+                <h4>Belgium waffles with strawberries</h4>
+                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
+                <p>$150</p>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img src="images/image_itemsList_4.jpg" />
+              <div class="menu-card-text">
+                <h4>Chicken skewers</h4>
+                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
+                <p>$150</p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="menu-card">
+              <img src="images/image_itemsList_5.png" />
+              <div class="menu-card-text">
+                <h4>Delicious food on a white plate</h4>
+                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
+                <p>$150</p>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img src="images/image_itemsList_6.png" />
+              <div class="menu-card-text">
+                <h4>Mutton or lamb biriyani</h4>
+                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
+                <p>$150</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 col-sm-12 menu-text">
-            <h4>Gazpacho Garlic</h4>
-            <p>Chilled tomato, cucumber, garlic, red pepper soup.</p>
-            <p>Rp. 95 K</p>
-        </div>
-        <div class="col-md-4 col-sm-12 menu-text">
-            <h4>Gazpacho Garlic</h4>
-            <p>Chilled tomato, cucumber, garlic, red pepper soup.</p>
-            <p>Rp. 95 K</p>
-        </div>
-        <div class="col-md-4 col-sm-12 menu-text">
-            <h4>Gazpacho Garlic</h4>
-            <p>Chilled tomato, cucumber, garlic, red pepper soup.</p>
-            <p>Rp. 95 K</p>
+      </div>
+
+      <!-- List Food - 2 -->
+      <div class="row">
+        <div class="col-md-12 menu-text">
+          <div class="d-flex">
+            <div class="menu-card">
+              <img src="images/image_itemsList_8.png" />
+              <div class="menu-card-text">
+                <h4>Fresh cola drink with green lime</h4>
+                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
+                <p>$150</p>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img src="images/image_itemsList_9.png" />
+              <div class="menu-card-text">
+                <h4>Ice cream cone</h4>
+                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
+                <p>$150</p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="menu-card">
+              <img src="images/image_itemsList_10.png" />
+              <div class="menu-card-text">
+                <h4>Chocolate ice cream</h4>
+                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
+                <p>$150</p>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img src="images/image_itemsList_11.png" />
+              <div class="menu-card-text">
+                <h4>Chocolate topping for ice cream cups</h4>
+                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
+                <p>$150</p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="menu-card">
+              <img src="images/image_itemsList_12.png" />
+              <div class="menu-card-text">
+                <h4>Ried eggs, sausages, zucchini</h4>
+                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
+                <p>$150</p>
+              </div>
+            </div>
+            <div class="menu-card">
+              <img src="images/image_itemsList_13.png" />
+              <div class="menu-card-text">
+                <h4>Salad, fried eggs and pastry</h4>
+                <p>Topped with chicken, onion, capsicum, black olive & Green chilli</p>
+                <p>$150</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -112,7 +216,9 @@
       </div>
     </div>
 
-    <div class="footer" style="background-color: #cc3333;">
+
+
+    <div class="footer" style="background-color: #cc3333">
       <div class="container p-2">
         <p class="text-center text-white mt-2 mb-2">&copy; Copyright 2022 | Rakay</p>
       </div>

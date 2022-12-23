@@ -25,7 +25,7 @@ nav .container {
 nav .container form {
   display: flex;
   justify-content: center;
-  max-width: 250px !important;
+  min-width: 250px !important;
   height: 35px;
   background-color: #fffafa;
 }
@@ -108,10 +108,14 @@ nav .cancel-icon {
     position: absolute;
     top: 115px;
     right: 10px;
-    opacity: 0;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.5s ease;
     z-index: 9999 !important;
+    display: none;
+  }
+
+  nav .container form.show{
+    display: flex;
   }
 
   nav .search-icon,

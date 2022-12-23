@@ -4,7 +4,6 @@
 @import url("css-reset.css");
 @import url("responsive.css");
 @import url("custom-image-slider.css");
-@import url("menu-style.css");
 
 html {
   scroll-behavior: smooth;
@@ -69,12 +68,7 @@ a {
   margin: 10px;
 }
 
-.images-food-items,
-.description-image,
-.big-offer-image,
-.image-my-restaurant,
-.custom-card-logo,
-.image-delivery {
+.bg-ncs {
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -103,18 +97,7 @@ a {
     margin-bottom: 10px;
   }
 
-  .custom-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .description-section,
-  .big-offer-section,
-  .my-restaurant-section,
-  .wwatb-section,
-  .delivery-section,
-  .testimonial-section {
+  .custom-p {
     padding: 3rem 0;
   }
 
@@ -130,68 +113,17 @@ a {
     letter-spacing: 1px;
     margin: 0 !important;
   }
+
+  .custom-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   /* ---------------------------------------------------------- */
 
   .row-images {
     display: flex;
     justify-content: center;
-  }
-
-  /* Description ------------------------------------------- */
-  .description-image {
-    width: 520px;
-    height: 400px;
-  }
-
-  .description-text h2 {
-    margin: 0;
-    margin-bottom: 10px;
-  }
-
-  .description-text p {
-    color: #2a435d;
-    font-size: 18px;
-    line-height: 30px;
-    width: 90%;
-  }
-
-  .description-text ul li {
-    display: flex;
-    align-items: center;
-    margin: 15px 0;
-  }
-  .description-text ul li span {
-    color: #2a435d;
-    margin: 0 10px;
-  }
-  /* -------------------------------------------------------- */
-
-  /* Big offer ----------------------------------------------- */
-  .big-offer-image {
-    width: 550px;
-    height: 200px;
-    margin: 5px;
-  }
-  /* ------------------------------------------------------- */
-
-  /* My Restaurant */
-  .image-my-restaurant {
-    width: 545px;
-    height: 390px;
-  }
-
-  .row-my-restaurant {
-    align-items: center;
-  }
-
-  .row-my-restaurant img {
-    width: 60px;
-    height: 60px;
-    margin: 5px;
-  }
-
-  .my-restaurant-section p {
-    font-size: 18px !important;
   }
 
   .custom-card {
@@ -222,12 +154,30 @@ a {
     margin-bottom: 20px;
   }
 
-  .custom-card p {
-    margin-bottom: 20px;
+  /* ----------------------------------------------- */
+  .header-section{
+    padding: 0;
   }
 
-  .image-delivery {
-    width: 545px;
-    height: 390px;
+  .header-image {
+    width: 100%;
+    height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+  }
+
+  .header-image h3,
+  .header-image p {
+    color: #ffffff !important;
+  }
+  .header-text {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    margin: auto;
   }
 }

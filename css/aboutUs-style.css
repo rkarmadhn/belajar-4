@@ -1,0 +1,27 @@
+@media (min-width: 772px) {
+  .about-1,
+  .about-2,
+  .about-3 {
+    padding: 2rem 0;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  .about-image {
+    width: 545px;
+    height: 390px;
+  }
+
+  .banner-chef{
+    background-color: #FFDFDF;
+    padding: 0 4.2rem;
+  }
+
+  .logo-chef{
+    width: 445px;
+    height: 300px;
+  }
+
+}

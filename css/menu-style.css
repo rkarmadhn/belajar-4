@@ -2,6 +2,7 @@
   .menu-section {
     padding: 1rem 0;
   }
+
   .menu-head {
     display: flex;
     justify-content: center;
@@ -9,9 +10,10 @@
     margin: 1rem 0;
   }
 
-  .menu-head a {
+  .menu-head p {
     padding: 5px 25px;
     font-size: 20px;
+    cursor: pointer;
   }
 
   .menu-text.active {
@@ -38,5 +40,87 @@
   -o-background-size: cover;
   background-size: cover;
   margin: 0 auto;
+  }
+
+  .menu-card{
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .menu-card img{
+    border-radius: 5px;
+  }
+
+  .menu-card-text{
+    margin-left: 10px;
+  }
+
+}
+
+@media (max-width : 765px) {
+
+  .header-section{
+    padding: 0;
+  }
+
+  .menu-section{
+    padding: 1rem 12px;
+  }
+
+  .header-image {
+    width: 100vw;
+    height: 200px;
+    padding: 0;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+  }
+
+  .header-text{
+    position: absolute;
+    top: 28%;
+    left: 26%;
+  }
+  
+  .header-text h3, .header-text p{
+    color: #fff;
+  }
+
+  .menu-head{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+
+  .list-link{
+    padding: 10px;
+  }
+
+  .menu-card{
+    min-height: 335px;
+  }
+
+  .menu-card  img{
+    width: 165px;
+    margin: 5px;
+  }
+
+  .menu-card-text{
+    margin: 5px;
+  }
+
+  .menu-card-text h4{
+    height: 55px;
+  }
+
+  .row-btn{
+    text-align: center;
   }
 }

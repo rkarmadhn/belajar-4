@@ -1,0 +1,62 @@
+@media (min-width : 772px) {
+    /* Description ------------------------------------------- */
+  .description-image {
+    width: 520px;
+    height: 400px;
+  }
+
+  .description-text h2 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .description-text p {
+    color: #2a435d;
+    width: 90%;
+  }
+
+  .description-text ul li {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  .description-text ul li span {
+    color: #2a435d;
+    margin: 0 10px;
+  }
+  /* -------------------------------------------------------- */
+   
+  /* Big offer ----------------------------------------------- */
+  .big-offer-image {
+    width: 550px;
+    height: 200px;
+    margin: 5px;
+  }
+  /* ------------------------------------------------------- */
+
+   /* My Restaurant */
+   .image-my-restaurant {
+    width: 545px;
+    height: 390px;
+  }
+
+  .row-my-restaurant {
+    align-items: center;
+  }
+
+  .row-my-restaurant img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+  }
+
+  .my-restaurant-section p {
+    font-size: 18px !important;
+  }
+
+  .image-delivery{
+    width: 545px;
+    height: 390px;
+  }
+
+}

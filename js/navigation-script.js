@@ -9,17 +9,17 @@ menuBtn.onclick = () => {
   menuBtn.classList.add("hide");
   searchBtn.classList.add("hide");
   cancelBtn.classList.add("show");
-  form.style.opacity = "0";
+  form.classList.remove("show");
 };
 cancelBtn.onclick = () => {
   items.classList.remove("active");
   menuBtn.classList.remove("hide");
   searchBtn.classList.remove("hide");
   cancelBtn.classList.remove("show");
-  form.style.opacity = "0";
+  form.classList.remove("show");
 };
 searchBtn.onclick = () => {
-  form.style.opacity = "1";
+  form.classList.add("show");
   searchBtn.classList.add("hide");
   cancelBtn.classList.add("show");
 };
